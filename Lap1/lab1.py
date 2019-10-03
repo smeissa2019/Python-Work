@@ -219,6 +219,7 @@ f1(1) # 1 is passed in as an argument to the function, and is bound to the local
 # *ON YOUR OWN:* In this cell, Modify the function `multiply_2` to accept two
 # arguments and returns the result of multiplying them together. You may name
 # the arguments anything you want
+#%%
 def multiply_2(a,b):
     return a * b
 multiply_2(3,5)
@@ -270,6 +271,7 @@ compare_with_3(4)
 # 3 is equal to 3
 # compare(10,3) 
 # 10 is greater than 3
+#%%
 def compare(a,b):
     if a == b:
         print(str(a) + " is equal to " + str(b))
