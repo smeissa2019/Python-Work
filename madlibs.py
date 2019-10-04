@@ -1,3 +1,5 @@
+
+#%%
 import random
 y = 1
 z=[]
@@ -14,10 +16,4 @@ else:
 sentence.append(z)     
 exit()
 print(z)
-
-
-
-
-
-
 
