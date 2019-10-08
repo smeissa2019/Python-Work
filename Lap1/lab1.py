@@ -379,10 +379,73 @@ print(random.randint(2,100))
 #%%
 import random
 def sum_random(y):
-    while y in range(1,100):
-        x = print(random.randint(1,100) + random.randint(1,100)) 
-        y = x
+     for s in range(110):
+        x = random.randint(0,110) 
+        i = int(s)
+        w = []
+        if int(s) < int(y):
+                z = x + 1
+                w.append(z)
+                
+        elif i ==y:
+            break
+             
+        
+                          
+        print(w)
+
        
 
 sum_random(3)
 sum_random(60)
+
+#%%
+import random
+def sum_random(y):
+    w=[]
+    i=int()
+    for i in range(0,110):
+        if int(i) > int(y):
+            x = random.randint(0,110)
+            z = x + 1
+            w.append(z)
+        elif int(i) == int(y):
+            break
+            print(w)
+
+#%%
+import random
+def sum_random(y):
+     for s in range(110):
+        x = random.randint(0,110) 
+        i = int(s)
+        w = []
+        
+        if i < int(y):
+                
+                z = x + 1
+                w.append(z)
+                print(w)
+                
+        if i ==y:
+            
+           
+            break
+#%%%
+import random
+w = []
+sahar = []        
+
+def sum_random(y):
+        x = random.randint(0,110) 
+        for i in range(x):
+            if i < int(y):
+                z = x + 1
+                w.append(z)
+            if i ==y:
+                break
+        sahar = sum(w)
+        print(sahar)
+
+sum_random(6)
+
