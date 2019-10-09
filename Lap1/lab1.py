@@ -96,7 +96,7 @@ print(a)
     
 #%%
 a = 5
-b = 42.5
+b = 42
 try:
     if(type(b)==type(0)):
         print("Well done.")
@@ -109,7 +109,7 @@ except:
     print(b)
 #%%
 a = 5
-b = "hi"
+b = 42.5
 try:
     if isinstance(b, float):
         print(b)
@@ -122,7 +122,7 @@ except:
     print(b)
 #%%
 a = 5
-b = 5
+b = "Sahar"
 try:
     if(type(b)==str):
         print("Hello World")
@@ -135,7 +135,7 @@ except:
     print(b)
 #%% 
 a = 5
-b = 8
+b = False
 try:
     if(type(b)==bool):
         print("TRUE")
