@@ -101,39 +101,84 @@ print(a)
 # - "Hello World"
 # - 42.0 
 # - True
-#%% 
-
+    
+#%%
 a = 5
-b = "Hi"
+b = 42.5
 try:
-    if(type(b)==str):
-        print("Hello World")
+    if(type(b)==type(0)):
+        print("Well done.")
     else:
-        print("b is not assigned a value of an integer type")
+        if(type(b)==str):
+         b = "Sahar"
+         print(b)
 except:
-    print("Make sure to initialize b to a value in the session")
-#%% 
-
+    b = a
+    print(b)
+#%%
 a = 5
-b = 42.0
+b = "hi"
 try:
     if isinstance(b, float):
         print(b)
     else:
-        print("b is not assigned a value of an integer type")
+        if(type(b)==str):
+         b = "Sahar"
+         print(b)
 except:
-    print("Make sure to initialize b to a value in the session")
-
+    b = a
+    print(b)
+#%%
+a = 5
+b = 5
+try:
+    if(type(b)==str):
+        print("Hello World")
+    else:
+        if(type(b)==bool):
+         b = "Sahar"
+         print(b)
+except:
+    b = a
+    print(b)
 #%% 
+a = 5
+b = 8
+try:
+    if(type(b)==bool):
+        print("TRUE")
+    else:
+        if(type(b)==str):
+         b = "Sahar"
+         print(b)
+except:
+    b = a
+    print(b)
+#%%
+One Try/else/except to check all of them - New
+#%%
 a = 5
 b = True
 try:
-    if isinstance(b, bool):
-        print(b)
+    if(type(b)==bool):
+        print("TRUE")
     else:
-        print("b is not assigned a value of an integer type")
+        if(type(b)==str):
+         b = "Sahar"
+         print(b)
+        if(type(b)==type(0)):
+         print(b)
+        if isinstance(b, float):
+         print(b)
 except:
-    print("Make sure to initialize b to a value in the session")
+    b = a
+    print(b)
+
+
+
+
+
+
 
 
 #%%
@@ -420,3 +465,4 @@ def sum_random(y):
 sum_random(100)
 
 #%%
+
