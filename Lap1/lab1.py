@@ -79,14 +79,6 @@ a = 5
 # *ON YOUR OWN:* Assign an integer to the variable `b` above so that no error
 # will result and re-run this cell.
 #%%
-b = 7
-try:
-    if(type(b)==type(0)):
-        print("Well done.")
-    else:
-        print("b is not assigned a value of an integer type")
-except:
-    print("Make sure to initialize b to a value in the session")
 
 #%% [markdown] 
 #
