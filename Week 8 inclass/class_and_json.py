@@ -45,4 +45,4 @@ print(re.search("\d{5}",zipcode1))
 #%%
 import re
 zipcode1 = "31545-8765"
-print(re.search("\d{5\4}",zipcode1))
+print(re.search("\d{5",zipcode1))
