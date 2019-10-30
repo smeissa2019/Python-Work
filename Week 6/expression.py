@@ -14,7 +14,12 @@ source.write(text)
 source2.write(answerUser)
 source.close
 source2.close
-questions = re.search("     \w")
-print(text)
 
-^The.*Spain$
+pride = source.read()
+print(pride[:1000])
+
+
+
+
+
+#%%
