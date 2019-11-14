@@ -9,7 +9,12 @@ def double(input):
     for x in input:
         print(x*2)
 
-double([2,3])       
+double([2,3])   
+ufruloig
+]
+glkgl;
+
+
 
 
     
