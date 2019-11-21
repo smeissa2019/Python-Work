@@ -1,0 +1,34 @@
+programs:
+consist of instructions and data
+data is the information and in the lowest level is binary 0 and 1
+code editor use the code but not excute it 
+Python intpret the data and excute it
+
+How you will intpret this input?
+
+literal is a value that is not represented in the code
+the varibale is for the programmer YAY!
+
+file 
+../ file.txt => relative
+
+Array and string non primative values
+
+exact = 
+aliasing
+
+Immutable = one I assigned a individual in a string you cannot change it
+
+Values if you have two objects the compiler 
+
+for x in range(len(y))
+y[x]=y[x]+1
+
+sorted(defining an array as an argument)
+returns a copy of array in sorted order
+
+y =[]
+y.sort() 
+in-place algorithms means changing the data and don't change it to another sort place 
+
+Unity takes code and modules
