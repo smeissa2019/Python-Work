@@ -5,7 +5,7 @@ import os
 cwd = os.getcwd() 
 files = os.listdir(cwd)  
 print("Files in %r: %s" % (cwd, files))
-my_file = open(r"C:\Users\sa418774\Documents\Python work\TwitterArtBot\verne.txt", "r", encoding="utf8")
+my_file = open(r"C:\Users\sa418774\Documents\Python work\Python-Work\TwitterArtBot\verne.txt", "r", encoding="utf8")
 file_lines = my_file.readlines()
 my_file.close()
 
@@ -26,7 +26,7 @@ def tweets():
                tweet = (line1, id(line))
                id(line) +1
                api.update_status(status=tweet)
-               sleep(900)
+               sleep(300)
                
            else:
                 pass
