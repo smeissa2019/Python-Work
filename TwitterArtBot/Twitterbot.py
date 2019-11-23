@@ -22,12 +22,13 @@ api = tweepy.API(auth)
 
 def tweets():
    for line in file_lines:
+       print(line)
        try:
            if line != '\n':
-               line1 = print(line)
-               tweet = (line1, id(line))
-               id(line) +1
-               api.update_status(status=tweet)
+              # line1 = print(line)
+              # tweet = (line1, id(line))
+             #  id(line) +1
+               api.update_status(status=line)
                sleep(300)
                
            else:
