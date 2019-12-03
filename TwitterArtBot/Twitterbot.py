@@ -1,7 +1,8 @@
 
 import tweepy
 from time import sleep
-
+from wordcloud import WordCloud
+import matplotlib as plt
 import os
 
 cwd = os.getcwd() 
@@ -25,10 +26,7 @@ def tweets():
        print(line)
        try:
            if line != '\n':
-              # line1 = print(line)
-              # tweet = (line1, id(line))
-             #  id(line) +1
-               api.update_status(status=line)
+              us(status=line)
                sleep(300)
                
            else:

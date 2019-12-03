@@ -1,0 +1,1 @@
+<_io.TextIOWrapper name='data/disney/emoji.txt' mode='w' encoding='utf-8'>
