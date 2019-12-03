@@ -1,7 +1,5 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# Image classification Daisy/Roses 
+The learner model is built to classify between daisy flowers and roses.
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+The app used a starter deployment app from [fast.ai](https://www.fast.ai) on [Render] (https://render.com)
 
-The sample app described here is up at https://fastai-v3.app.render.com. Test it out with bear images!
-
-The guide for production deployment to Render is at https://course-v3.fast.ai/deployment_render.html.
